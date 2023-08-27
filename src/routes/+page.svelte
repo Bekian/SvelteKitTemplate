@@ -12,11 +12,11 @@
 	);
 </script>
 
-<h1 class="text-5xl text-center font-medium text-grey">The time is {formatter.format($time)}</h1>
+<h1 class="text-5xl text-center font-medium text-neutral-200">The time is {formatter.format($time)}</h1>
 
 <style lang="postcss">
 :global(html) {
-    background-color: theme(colors.blue.500);
+    background-color: theme(colors.neutral.900);
 
     
 }
